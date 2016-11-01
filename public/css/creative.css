@@ -174,6 +174,8 @@ header .header-content .header-content-inner h1 {
   letter-spacing: 1px;
   font-weight: lighter;
   background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 20px;
+  border-radius: 20px;
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
@@ -423,9 +425,15 @@ body {
   background-repeat: no-repeat;
 }
 .resources img {
-  width: 200px;
+  width: 170px;
   height: auto;
 }
 .resources #emi {
-  width: 120px;
+  width: 80px;
+}
+.resources #kodi {
+  width: 95px;
+}
+#services {
+  padding: 50px 0;
 }
