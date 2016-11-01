@@ -15,7 +15,7 @@ body {
 hr {
     border-color: @theme-primary;
     border-width: 3px;
-    max-width: 50px;
+    max-width: 100px;
 }
 
 hr.light {
@@ -47,11 +47,11 @@ p {
 }
 
 .bg-primary {
-    background-color: @theme-primary;
+    background-color: rgba(227, 21, 0, 0.81);
 }
 
 .bg-dark {
-    background-color: @gray-darker;
+    background-color: #fff;
     color: white;
 }
 
@@ -175,11 +175,14 @@ header {
         width: 100%;
         .header-content-inner {
             h1 {
-                font-weight: 700;
-                text-transform: uppercase;
-                margin-top: 0;
+                margin-top: 70px;
                 margin-bottom: 0;
                 font-size: 30px;
+                font-style: italic;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: lighter;
+                background-color: rgba(0, 0, 0, 0.5);
             }
             hr {
                 margin: 30px auto;
@@ -188,7 +191,7 @@ header {
                 font-weight: 300;
                 color: fade(white, 70%);
                 font-size: 16px;
-                margin-bottom: 50px;
+                margin-bottom: 80px;
             }
         }
     }
@@ -223,6 +226,9 @@ header {
 
 .section-heading {
     margin-top: 0;
+    h2 {
+        color: @theme-primary;
+    }
 }
 
 .service-box {
@@ -245,7 +251,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: fade(@theme-primary, 90%);
+        background: fade(@theme-primary, 70%);
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -317,7 +323,11 @@ header {
 }
 
 .btn-primary {
-    .button-variant(white;@theme-primary;@theme-primary);
+    background-color: @theme-primary;
+    &:hover, &:focus {
+        background-color: rgba(227, 21, 0, 0.6);
+    }
+
 }
 
 .btn {
@@ -358,4 +368,54 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @gray-darker;
+}
+
+.icons {
+    display: inline-block;
+    margin: 10px 20px 10px 20px;
+}
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+.icon-color {
+    color: @theme-primary;
+    &:hover {
+        animation: bounce 1s;
+    }
+}
+
+#contact {
+    padding: 50px 0px;
+    background-image: url('../img/contact_us.png');
+    height: 230px;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    background-position: 331px 0px;
+    background-color: #dddfd1;
+    background-repeat: no-repeat;
+}
+
+.resources {
+    img {
+        width:200px; 
+        height: auto;
+    }
+    #emi {
+         width:120px; 
+    }
 }
