@@ -41,9 +41,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
-}
-.bg-primary {
-  background-color: rgba(227, 21, 0, 0.81);
+  font-family: 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
 }
 .bg-dark {
   background-color: #fff;
@@ -447,4 +445,15 @@ body {
 }
 #services {
   padding: 50px 0;
+}
+#about {
+  background-color: #e30000;
+  /*background-image: url('../img/leave_feedback.jpg');
+    height: 320px;    
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    background-position: 331px 0px;
+    background-repeat: no-repeat; */
 }

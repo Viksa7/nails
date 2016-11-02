@@ -73,7 +73,7 @@
                 <h1 id="homeHeading">Мастер ногтевого сервиса с опытом работы предоставляет свои услуги</h1>
                 <hr>
                 <p style="color: #fff;">Бла-бла, описание мастера</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Оставить отзыв</a>
+                <a href="#portfolio" class="btn btn-primary btn-xl page-scroll leave-feedback">Мои работы</a>
             </div>
         </div>
     </header>
@@ -84,7 +84,6 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Оставьте свой отзыв</h2>
                     <hr class="light">
-                    <p class="text-faded">Ваша оценка очень важна. Пожалуйста, оставьте отзыв</p>
                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Написать</a>
                 </div>
             </div>
