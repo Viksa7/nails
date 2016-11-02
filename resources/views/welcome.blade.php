@@ -226,7 +226,7 @@
                         </div>
                     <div class="col-lg-3 resources">
                         <img id="emi" src="/img/EMI.jpg">
-                    </div> 
+                    </div>
                     <div class="col-lg-3 resources">
                         <img src="/img/runail.jpg">
                     </div>
@@ -247,7 +247,7 @@
                         </div>
                     <div class="col-lg-3 resources">
                         <img id="emi" src="/img/EMI.jpg">
-                    </div> 
+                    </div>
                     <div class="col-lg-3 resources">
                         <img src="/img/runail.jpg">
                     </div>
@@ -272,7 +272,7 @@
                         </div>
                     <div class="icons">
                         <p><a target="_blank" href=""><i class="fa fa-odnoklassniki fa-4x icon-color"></i></a></p>
-                    </div> 
+                    </div>
                     <div class="icons">
                         <p><a target="_blank" href="https://www.instagram.com/mariya_nails12"><i class="fa fa-instagram fa-4x icon-color"></i></a></p>
                     </div>
@@ -297,7 +297,3 @@
 </body>
 
 </html>
-
-
-<link href="{!! asset('css/bootstrap.min.css') !!}" media="all" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="{!! asset('js/bootstrap.min.js') !!}"></script>
