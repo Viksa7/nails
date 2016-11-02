@@ -233,7 +233,7 @@
                     <div class="col-lg-2 resources">
                         <img id="emi" src="/img/EMI.jpg">
                     </div> 
-                    <div class="col-lg-2 resources">
+                    <div class="col-lg-3 resources">
                         <img src="/img/runail.jpg">
                     </div>
 
@@ -246,7 +246,18 @@
             <div class="call-to-action">
                 <h2 style="color: #000;">Мои сертификаты</h2>
                 <div class="col-lg-12 text-center">
-                    
+                <div class="col-lg-3 resources">
+                        <img src="img/Bluesky.png">
+                    </div>
+                        <div class="col-lg-3 resources">
+                            <img src="img/CDN.jpg">
+                        </div>
+                    <div class="col-lg-3 resources">
+                        <img id="emi" src="/img/EMI.jpg">
+                    </div>
+                    <div class="col-lg-3 resources">
+                        <img src="/img/runail.jpg">
+                    </div>
                 </div>
             </div>
         </div>
@@ -268,8 +279,13 @@
                         </div>
                     <div class="icons col-lg-3 col-md-12">
                         <p><a target="_blank" href=""><i class="fa fa-odnoklassniki fa-4x icon-color"></i></a></p>
+<<<<<<< HEAD
                     </div> 
                     <div class="icons col-lg-3 col-md-12">
+=======
+                    </div>
+                    <div class="icons">
+>>>>>>> c212e5b1c6e6ea008943434460fb41715a58e29c
                         <p><a target="_blank" href="https://www.instagram.com/mariya_nails12"><i class="fa fa-instagram fa-4x icon-color"></i></a></p>
                     </div>
                 </div>
@@ -293,7 +309,3 @@
 </body>
 
 </html>
-
-
-<link href="{!! asset('css/bootstrap.min.css') !!}" media="all" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="{!! asset('js/bootstrap.min.js') !!}"></script>
