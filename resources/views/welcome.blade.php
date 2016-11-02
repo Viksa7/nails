@@ -236,7 +236,6 @@
                     <div class="col-lg-3 resources">
                         <img src="/img/runail.jpg">
                     </div>
-
                 </div>
             </div>
         </div>
@@ -279,13 +278,8 @@
                         </div>
                     <div class="icons col-lg-3 col-md-12">
                         <p><a target="_blank" href=""><i class="fa fa-odnoklassniki fa-4x icon-color"></i></a></p>
-<<<<<<< HEAD
                     </div> 
                     <div class="icons col-lg-3 col-md-12">
-=======
-                    </div>
-                    <div class="icons">
->>>>>>> c212e5b1c6e6ea008943434460fb41715a58e29c
                         <p><a target="_blank" href="https://www.instagram.com/mariya_nails12"><i class="fa fa-instagram fa-4x icon-color"></i></a></p>
                     </div>
                 </div>
