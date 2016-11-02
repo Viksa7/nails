@@ -49,7 +49,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#page-top">Обо мне</a>
+                        <a class="page-scroll" href="#page-top">111Обо мне</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Услуги</a>
