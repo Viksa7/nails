@@ -244,20 +244,6 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2 style="color: #000;">Мои сертификаты</h2>
-                <div class="col-lg-12 text-center">
-                <div class="col-lg-3 resources">
-                        <img src="img/Bluesky.png">
-                    </div>
-                        <div class="col-lg-3 resources">
-                            <img src="img/CDN.jpg">
-                        </div>
-                    <div class="col-lg-3 resources">
-                        <img id="emi" src="/img/EMI.jpg">
-                    </div>
-                    <div class="col-lg-3 resources">
-                        <img src="/img/runail.jpg">
-                    </div>
-                </div>
             </div>
         </div>
     </aside>
