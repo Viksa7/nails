@@ -424,6 +424,17 @@ body {
   background-color: #dddfd1;
   background-repeat: no-repeat;
 }
+@media (max-width: 767px) {
+  #contact {
+    height: 300px;
+    padding: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .resources {
+    padding: 20px 0px;
+  }
+}
 .resources img {
   width: 170px;
   height: auto;
@@ -432,7 +443,7 @@ body {
   width: 80px;
 }
 .resources #kodi {
-  width: 95px;
+  width: 105px;
 }
 #services {
   padding: 50px 0;

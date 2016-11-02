@@ -40,7 +40,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    <span class="sr-only">Toggle navigation</span> Меню <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">Мастер Мария</a>
             </div>
@@ -218,18 +218,25 @@
             <div class="call-to-action">
                 <h2 style="color: #000;">Мои материалы</h2>
                 <div class="col-lg-12 text-center">
-                    <div class="col-lg-3 resources">
+                    <div class="col-lg-2 resources">
+                        <img src="/img/arnelle.jpg">
+                    </div>
+                    <div class="col-lg-2 resources">
                         <img src="img/Bluesky.png">
                     </div>
-                        <div class="col-lg-3 resources">
-                            <img src="img/CDN.jpg">
-                        </div>
-                    <div class="col-lg-3 resources">
+                    <div class="col-lg-2 resources">
+                        <img id="kodi" src="img/kodi.jpg">
+                    </div>
+                    <div class="col-lg-2 resources">
+                        <img src="img/glory_shine.jpg">
+                    </div>
+                    <div class="col-lg-2 resources">
                         <img id="emi" src="/img/EMI.jpg">
                     </div> 
-                    <div class="col-lg-3 resources">
+                    <div class="col-lg-2 resources">
                         <img src="/img/runail.jpg">
                     </div>
+
                 </div>
             </div>
         </div>
@@ -239,18 +246,7 @@
             <div class="call-to-action">
                 <h2 style="color: #000;">Мои сертификаты</h2>
                 <div class="col-lg-12 text-center">
-                    <div class="col-lg-3 resources">
-                        <img src="img/Bluesky.png">
-                    </div>
-                        <div class="col-lg-3 resources">
-                            <img src="img/CDN.jpg">
-                        </div>
-                    <div class="col-lg-3 resources">
-                        <img id="emi" src="/img/EMI.jpg">
-                    </div> 
-                    <div class="col-lg-3 resources">
-                        <img src="/img/runail.jpg">
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -264,16 +260,16 @@
                     <!--<p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>-->
                 </div>
                 <div class="col-lg-12 text-center">
-                    <div class="icons">
+                    <div class="icons col-lg-3 col-md-12">
                         <p><a target="_blank" href=""><i class="fa fa-whatsapp fa-4x sr-contact icon-color"></i></a></p>
                     </div>
-                        <div class="icons">
+                        <div class="icons col-lg-3 col-md-12">
                             <p><a target="_blank" href=""><i class="fa fa-vk fa-4x icon-color"></i></a></p>
                         </div>
-                    <div class="icons">
+                    <div class="icons col-lg-3 col-md-12">
                         <p><a target="_blank" href=""><i class="fa fa-odnoklassniki fa-4x icon-color"></i></a></p>
                     </div> 
-                    <div class="icons">
+                    <div class="icons col-lg-3 col-md-12">
                         <p><a target="_blank" href="https://www.instagram.com/mariya_nails12"><i class="fa fa-instagram fa-4x icon-color"></i></a></p>
                     </div>
                 </div>
